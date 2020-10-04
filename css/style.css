@@ -27,7 +27,7 @@ body {
     height: 105vh;
     background-image:
         linear-gradient(0deg, var(--clr-bg-filter), var(--clr-bg-filter)),
-        url("/images/dev-landscape.jpg");
+        url("/images/landscape.jpg");
     background-color: var(--clr-bg-dark);
     background-position: center bottom;
     background-size: cover;
@@ -206,13 +206,13 @@ nav {
 }
 
 .profile-text-description {
-    font-size: clamp(12px, 2vw, 18px);
+    font-size: clamp(18px, 2vw, 21px);
     font-weight: 200;
     text-align: justify;
 }
 
 .question-box {
-    font-size: clamp(12px, 2vw, 18px);
+    font-size: clamp(18px, 2vw, 21px);
     box-shadow: -1px 1px 3px .5px var(--clr-bg-dark);
     font-weight: 200;
     padding: 10px;
